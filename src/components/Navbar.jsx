@@ -61,9 +61,9 @@ function Navbar() {
 
       <ul className="flex items-center gap-6 text-pink-400 font-semibold">
         <li><Link to="/">Home</Link></li>
+        <li><Link to="/product">Product</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/product">Product</Link></li>
 
         {/* CART */}
         <div className="relative">
