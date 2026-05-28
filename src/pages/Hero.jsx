@@ -17,15 +17,6 @@ function Hero() {
     { id: 5, image: "/sunscreen.webp", name: "Sunscreen" },
   ];
 
-  // OFFERS
-  const offer = [
-    { id: 1, images: "/under199.webp" },
-    { id: 2, images: "/under299.webp" },
-    { id: 3, images: "/under399.webp" },
-    { id: 4, images: "/under30%.webp" },
-    { id: 5, images: "/under50%.webp" },
-    { id: 6, images: "/under70%.webp" },
-  ];
 
   const brands = [
     { id: 1, image: "/fogg.webp" },
@@ -173,25 +164,7 @@ function Hero() {
 
       </section>
 
-      {/* OFFERS */}
-      <section className='bg-pink-100 py-6'>
 
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-4 px-6">
-
-          {offer.map((item) => (
-
-            <img
-              key={item.id}
-              src={item.images}
-              className='h-30 w-full object-cover rounded-lg shadow-md hover:scale-105 transition-all duration-300'
-              alt="offer"
-            />
-
-          ))}
-
-        </div>
-
-      </section>
 
       {/* BRANDS */}
       <section className='px-6'>
