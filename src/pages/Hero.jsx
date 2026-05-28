@@ -19,12 +19,12 @@ function Hero() {
 
   // OFFERS
   const offer = [
-    { id: 1, image: "/under199.webp" },
-    { id: 2, image: "/under299.webp" },
-    { id: 3, image: "/under399.webp" },
-    { id: 4, image: "/under30%.webp" },
-    { id: 5, image: "/under50%.webp" },
-    { id: 6, image: "/under70%.webp" },
+    { id: 1, images: "/under199.webp" },
+    { id: 2, images: "/under299.webp" },
+    { id: 3, images: "/under399.webp" },
+    { id: 4, images: "/under30%.webp" },
+    { id: 5, images: "/under50%.webp" },
+    { id: 6, images: "/under70%.webp" },
   ];
 
   const brands = [
@@ -182,7 +182,7 @@ function Hero() {
 
             <img
               key={item.id}
-              src={item.image}
+              src={item.images}
               className='h-30 w-full object-cover rounded-lg shadow-md hover:scale-105 transition-all duration-300'
               alt="offer"
             />
