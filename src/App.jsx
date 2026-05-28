@@ -19,7 +19,7 @@ import Cart from "./pages/Cart";
 import Orders from "./pages/order/Orders";
 import Dashboard from "./pages/Dashboard";
 
-import Checkout from "./pages/order/CheckOut";
+import Checkout from "./pages/order/Checkout";
 import OrderSuccess from "./pages/order/OrderSuccess";
 
 function App() {
